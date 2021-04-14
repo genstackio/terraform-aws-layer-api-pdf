@@ -14,10 +14,10 @@
   resolved "https://registry.yarnpkg.com/@jorgeferrero/stream-to-buffer/-/stream-to-buffer-2.0.6.tgz#0d0c22f9adb66ce5e3e6a7f7e435407ce6d71675"
   integrity sha512-G7jiBkMwDdYADntdV/qzl9H4Lkch0RyektqXl5+KhktduP4/rE1RaTz0wKZFdC2dKo3S0JaxoUUC3uDeXmI7EQ==
 
-"@ohoareau/aws@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@ohoareau/aws/-/aws-0.1.6.tgz#37edee27c7db8ae8821864a00ebc14e8286598ec"
-  integrity sha512-wxhBzl9lmq26McDWSvL7OY8cLSfHsa2gqGUUj5Y4CgpyDOEh8yHGjp//Mt+WQrPjNTeNkFWpTKk6fMDmEahChg==
+"@ohoareau/aws@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@ohoareau/aws/-/aws-0.1.7.tgz#0cd090e8c0170b2cda112049d50ffe91167baad5"
+  integrity sha512-kuFc3bYyjdXIxkM4tJi61BgAqA+aQS/CyFcYvfpe+43CJozhpfiVEHsxJb21FGpjNnaPcO1toCHMQED86iivkg==
   dependencies:
     "@ohoareau/errors" "^0.1.0"
     uuid "^8.3.1"
@@ -27,21 +27,21 @@
   resolved "https://registry.yarnpkg.com/@ohoareau/errors/-/errors-0.1.0.tgz#dc6646ba6892fa90934c86227d28a8d38414ed1f"
   integrity sha512-5eeiyHzTScqvxsS3O3cRFYUptsJvGvoFJX4gGFkG+U5T9rjWHE6NePpRzH0V8ieuxkfXtTN5e5qfmRn3fHqy7g==
 
-"@ohoareau/lambda-api-pdf@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@ohoareau/lambda-api-pdf/-/lambda-api-pdf-0.1.2.tgz#93b478ce5298b14dcba131ba036b70c2527ad808"
-  integrity sha512-ldJ8PrPx/tuIKzN9n0PtiENgdNyDy/39j3pXSgP0vmSk/xZsv+NrTgD/njPfZQEBDqMkgFhiqvkP1crqp6rCjQ==
+"@ohoareau/lambda-api-pdf@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@ohoareau/lambda-api-pdf/-/lambda-api-pdf-0.1.4.tgz#23915c2358cb435991b2216e4e5430a91af7e2f2"
+  integrity sha512-3vemLUVfknnD1P7cpr5wLU3hQN0ZYKaBuj10GXDWpV9g7BWVYKJWiCqEPSXlGMiEi16L1rst/R6HG2cMHd2G/g==
   dependencies:
-    "@ohoareau/aws" "^0.1.6"
-    "@ohoareau/lambda-utils" "^0.2.5"
+    "@ohoareau/aws" "^0.1.7"
+    "@ohoareau/lambda-utils" "^0.2.6"
     "@ohoareau/react-document-renderer" "^0.4.1"
 
-"@ohoareau/lambda-utils@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@ohoareau/lambda-utils/-/lambda-utils-0.2.5.tgz#0dbc43e00390f7b80fb62d76991a16b94368f1ff"
-  integrity sha512-SYjsG2t3h2Zrm1wdk717kx27P+ta/PeKxT9VuLJBEvsh5iVasFqqMtUcI1UL0ooVfVRuupUMOnzHMc4JECyucw==
+"@ohoareau/lambda-utils@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@ohoareau/lambda-utils/-/lambda-utils-0.2.6.tgz#226c1adf7f016a7f3792bf95ea29a6221aedede5"
+  integrity sha512-9aKzwpGjHsAeE14Ax0ztXEnUgTOOQUJv7LclOqIlEwU2tBAhYPa8ojWvGZMaLVJfv3KKPn082RyeJReapdA+rA==
   dependencies:
-    "@ohoareau/aws" "^0.1.6"
+    "@ohoareau/aws" "^0.1.7"
     node-fetch "^2.6.1"
     path-parser "^6.1.0"
 
